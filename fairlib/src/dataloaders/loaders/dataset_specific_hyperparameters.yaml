@@ -1,0 +1,68 @@
+Moji: 
+  emb_size: 2304
+  num_classes: 2
+  num_groups: 2
+Bios_both: 
+  emb_size: 768
+  num_classes: 28
+  num_groups: 4
+Bios_intersection: 
+  emb_size: 768
+  num_classes: 28
+  num_groups: 4
+Bios_gender:
+  emb_size: 768
+  num_classes: 28
+  num_groups: 2
+Bios_economy:
+  emb_size: 768
+  num_classes: 28
+  num_groups: 2
+Trustpilot_gender:
+  emb_size: 768
+  num_classes: 5
+  num_groups: 2
+Trustpilot_age: 
+  emb_size: 768
+  num_classes: 5
+  num_groups: 2
+Trustpilot_country: 
+  emb_size: 768
+  num_classes: 5
+  num_groups: 2
+Trustpilot_intersection: 
+  emb_size: 768
+  num_classes: 5
+  num_groups: 8
+Adult_gender: 
+  emb_size: 101
+  num_classes: 2
+  num_groups: 2
+Adult_race: 
+  emb_size: 101
+  num_classes: 2
+  num_groups: 2
+Adult_intersection: 
+  emb_size: 101
+  num_classes: 2
+  num_groups: 4
+COMPAS_gender: 
+  emb_size: 447
+  num_classes: 2
+  num_groups: 2
+COMPAS_race: 
+  emb_size: 447
+  num_classes: 2
+  num_groups: 2
+COMPAS_intersection: 
+  emb_size: 447
+  num_classes: 2
+  num_groups: 4
+imSitu: 
+  emb_size: 2048
+  num_classes: 211
+  num_groups: 2
+MNIST: 
+  emb_size: 800
+  num_classes: 10
+  num_groups: 2

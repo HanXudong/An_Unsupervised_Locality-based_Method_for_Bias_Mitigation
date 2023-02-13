@@ -1,0 +1,11 @@
+tqdm
+numpy
+docopt
+pandas
+scikit
+torch
+PyYAML
+seaborn
+matplotlib
+pickle5
+transformers
