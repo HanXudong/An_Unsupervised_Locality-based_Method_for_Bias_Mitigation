@@ -1,6 +1,17 @@
 # An_Unsupervised_Locality-based_Method_for_Bias_Mitigation
 Source codes for ICLR 2023 paper "Everybody Needs Good Neighbours: An Unsupervised Locality-based Method for Bias Mitigation"
 
+If you use the code, please cite the following paper:
+
+```
+@inproceedings{han2023everybody,
+title={Everybody Needs Good Neighbours: An Unsupervised Locality-based Method for Bias Mitigation},
+author={Xudong Han and Timothy Baldwin and Trevor Cohn},
+booktitle={International Conference on Learning Representations},
+year={2023},
+url={https://openreview.net/forum?id=pOnhudsvzR}
+}
+```
 
 All experiments are conducted with the open source fairlib library, which includes all baseline methods in this paper. 
 Please check the homepage of fairlib for more details.
@@ -134,7 +145,7 @@ Based on the collected results, please follow the instruction of fairlib to deri
   NB_Analysis_KNN_labels.ipynb: 
 - Section 5.2 EFFECTIVENESS OF THE KNN CORRECTION  
   scripts_protected_label_predictbility.py: 
-- Appendix C.2 COMPUTATIONAL BUDGET  
+- Appendix C.3 COMPUTATIONAL BUDGET  
   scripts_computational_budgets.py
-- Appendix D.3 HOW DOES BIAS MITIGATION AFFECT FAIRNESS FOR UNOBSERVED GROUPS?  
+- Appendix E.5 HOW DOES BIAS MITIGATION AFFECT FAIRNESS FOR UNOBSERVED GROUPS?  
     scripts_cross_domain_analysis.py
